@@ -5,7 +5,7 @@ import './Navbar.css'
 import { useMode } from '../../hooks/useMode'
 //icons
 import bar from '../../assets/bar.svg'
-//animation
+//animationh
 import { motion } from 'framer-motion'
 
 const Navbar = () => {
