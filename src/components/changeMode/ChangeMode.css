@@ -1,0 +1,49 @@
+#mode {
+    position: fixed;
+    right: 2rem;
+    bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+}
+
+.set-mode {
+    background: rgb(78, 7, 78);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 8px var(--normalPurple);
+}
+
+.set {
+    background: #232323;
+    width: fit-content;
+    padding: 0.3rem;
+    border-radius: 1rem;
+}
+
+.set>img {
+    width: 2rem;
+    height: 2rem;
+    fill: white;
+}
+
+.toggle-mode {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-mode>img {
+    height: 2rem;
+    width: 2rem;
+    fill: white;
+}
+
+@media screen and (max-width:768px) {
+
+    #mode {
+        right: 0.3rem;
+        bottom: 7rem;
+    }
+}

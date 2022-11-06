@@ -1,0 +1,125 @@
+.header {
+    background: url(/src/assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.header.dark {
+    background: #232323;
+}
+
+.overlay {
+    position: absolute;
+    top: 3.9rem;
+    left: 0;
+    background-image: linear-gradient(rgba(194, 102, 227, 0.5), rgba(194, 102, 227, 0.5));
+    height: 100vh;
+    width: 100%;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header-text>span {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header-text>span>:nth-child(2),
+.header-text>span>:nth-child(6) {
+    color: red;
+    font-style: italic;
+}
+
+.header-text>div>p {
+    padding: 1rem 0;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.header-text>div>.btn {
+    margin-top: 0.5rem;
+    margin-right: 10px;
+
+}
+
+.figures {
+    position: absolute;
+    left: 2rem;
+    bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.figures>div {
+    display: flex;
+    gap: 2rem;
+}
+
+.figures>div>span {
+    display: flex;
+    flex-direction: column;
+}
+
+.figures>span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: red;
+    padding-bottom: 1rem;
+}
+
+.figures>div>span>:nth-child(1) {
+    font-size: 2rem;
+    color: white;
+}
+
+.figures>div>span>:nth-child(2) {
+    font-size: 1rem;
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+    .header-text {
+        margin-top: -1rem;
+    }
+
+    .header-text>span {
+        font-size: x-large;
+
+    }
+
+    .header-text>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .figures {
+        bottom: 1rem;
+    }
+
+    .figures>span {
+        font-size: x-large;
+        padding-bottom: 0.5rem;
+    }
+
+    .figures>div>span>:nth-child(1) {
+        font-size: large;
+    }
+
+    .figures>div>span>:nth-child(2) {
+        font-size: small;
+    }
+
+}

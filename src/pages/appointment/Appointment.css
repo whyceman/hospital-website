@@ -1,0 +1,123 @@
+.appoint {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    gap: 1rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.top-a {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.top-a>:nth-child(1) {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    align-self: center;
+    margin-bottom: 2rem;
+}
+
+.top-a>:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #232323;
+}
+
+.appoint form {
+    background: purple;
+    border-radius: 2rem;
+    align-self: center;
+    width: 30%;
+    height: 80%;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.appoint form label>span,
+input,
+textarea {
+    display: block;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 2rem;
+}
+
+
+.appoint textarea {
+    height: 3rem;
+}
+
+.appoint .btn {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    margin-top: 1rem;
+}
+
+.backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: black;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backdrop.dark {
+    opacity: 1;
+}
+
+.modal {
+    height: 40%;
+    width: 45%;
+    border-radius: 20px;
+    background: rgb(161, 14, 161);
+    z-index: 99;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 4rem;
+}
+
+.modal.dark {
+    background: rgb(48, 5, 48);
+}
+
+@media screen and (max-width:768px) {
+    .top-a>:nth-child(1) {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .appoint form {
+        width: 100%;
+    }
+
+    .appoint form label>span,
+    input {
+        height: 1.5rem;
+    }
+
+    .modal {
+        width: 90%;
+        padding: 2rem;
+    }
+}

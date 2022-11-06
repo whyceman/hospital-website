@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.App {
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  background: var(--lightPurple);
+  overflow: hidden;
+}
+
+.App.dark {
+  background: black;
+}
+
+* {
+  font-family: Roboto;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --normalPurple: rgb(147, 25, 191);
+  --lightPurple: rgb(194, 102, 227);
+  --darkPurple: rgb(99, 43, 120);
+  --buttonColor: linear-gradient(50deg, rgb(147, 25, 191), rgb(179, 18, 98));
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.btn {
+  background: var(--buttonColor);
+  border: 2px solid var(--darkPurple);
+  padding: 0.5rem 1.5rem;
+  border-radius: 4rem;
+  font-weight: bold;
+  color: white;
+}
+
+.btn>a {
+  color: white;
+}

@@ -1,0 +1,119 @@
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonials>span {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.t-container {
+    display: flex;
+    gap: 1rem;
+    max-width: 60%;
+    background: var(--darkPurple);
+    border-radius: 2rem;
+    padding: 1.5rem 2rem;
+}
+
+.t-container>span {
+    flex: 1.4;
+    height: 15rem;
+    width: 15rem;
+    margin: auto auto;
+}
+
+.t-container>span>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5rem;
+
+}
+
+.t-container>div {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.t-container>div>:nth-child(1) {
+    font-size: 1rem;
+    color: rgb(141, 26, 26);
+    background: var(--normalPurple);
+    padding: 0.5rem;
+    width: fit-content;
+}
+
+.t-container>div>:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+
+.rating {
+    width: 2rem;
+    height: 2rem;
+}
+
+.t-container>div>:nth-child(4) {
+    letter-spacing: 1px;
+
+}
+
+.arrows {
+    display: flex;
+    gap: 1rem;
+}
+
+.arrows>span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(58, 20, 58);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+
+@media screen and (max-width:768px) {
+    .testimonials {
+        padding: 0 1rem;
+        width: 100%;
+    }
+
+    .testimonials>span {
+        font-size: x-large;
+    }
+
+    .t-container {
+        min-width: 100%;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .t-container>span {
+        position: absolute;
+    }
+
+    .t-container>span {
+        flex: 1.5;
+        height: 4rem;
+        width: 4rem;
+        right: 1.5rem;
+    }
+}
