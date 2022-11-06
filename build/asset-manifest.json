@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61b56421.css",
+    "main.js": "/static/js/main.302fc07a.js",
+    "static/media/bg.jpg": "/static/media/bg.fcccc9e7256e1999f983.jpg",
+    "static/media/drugs.jpg": "/static/media/drugs.9b50e2c256a715023156.jpg",
+    "static/media/surgery.jpg": "/static/media/surgery.bdd42ca37b086bf74a8a.jpg",
+    "static/media/heart.jpg": "/static/media/heart.7c25318db0880fafe7be.jpg",
+    "static/media/man2.jpg": "/static/media/man2.a88466438511699deee7.jpg",
+    "static/media/pedo.jpg": "/static/media/pedo.57bfde2a93b614340024.jpg",
+    "static/media/chemo.jpg": "/static/media/chemo.36a81cb611b46a16fb8b.jpg",
+    "static/media/background.jpg": "/static/media/background.ca69c5f8ee0b9dd959b1.jpg",
+    "static/media/man4.jpg": "/static/media/man4.106c9fc22e5665eb6a4e.jpg",
+    "static/media/emergency.jpg": "/static/media/emergency.16f0c928e85f63058871.jpg",
+    "static/media/ambulance.jpg": "/static/media/ambulance.a69461c122cf581c4aac.jpg",
+    "static/media/team.jpg": "/static/media/team.eaca6ee205075810e6b2.jpg",
+    "static/media/imaging.jpg": "/static/media/imaging.65c06b022e4c1cd7ef93.jpg",
+    "static/media/reception.jpg": "/static/media/reception.073359bf5f429e3fbff9.jpg",
+    "static/media/maternity.jpg": "/static/media/maternity.23128af60d62f13c3692.jpg",
+    "static/media/ward.jpg": "/static/media/ward.1c04dcc9d97f4a59aff0.jpg",
+    "static/media/pathology.jpg": "/static/media/pathology.2a65f3cccbcdb2882f00.jpg",
+    "static/media/man1.jpg": "/static/media/man1.b5f2904ed6be1be34b95.jpg",
+    "static/media/man3.jpg": "/static/media/man3.ca3d533ea65673f12fb1.jpg",
+    "static/media/vip.jpg": "/static/media/vip.39bd6e29de87d27fb364.jpg",
+    "static/media/ophta2.jpg": "/static/media/ophta2.39a85cdf1eabb1073f35.jpg",
+    "static/media/brain.jpg": "/static/media/brain.7bf32ec34137c05628cb.jpg",
+    "static/media/light.svg": "/static/media/light.1c158708af687756aa7155a5a176083a.svg",
+    "static/media/setting.svg": "/static/media/setting.36e97c1df16bd2a0c5bf724f4004ebf5.svg",
+    "index.html": "/index.html",
+    "static/media/dark.svg": "/static/media/dark.cef6d8ad409f38d4fe79f60fa80a9d6a.svg",
+    "static/media/star.svg": "/static/media/star.e3af8216d0259ac4f901193045fac671.svg",
+    "static/media/bar.svg": "/static/media/bar.e3a66a24555d25250de8cd45d3aac837.svg",
+    "static/media/right.svg": "/static/media/right.b27c783b409fb1613644166bc694df53.svg",
+    "static/media/arrow-left.svg": "/static/media/arrow-left.7f0fd6604b58feea0ff8138f8a454e8d.svg",
+    "static/media/arrow-right.svg": "/static/media/arrow-right.7d7d872c1106c75c1e63271d78f52c86.svg",
+    "main.61b56421.css.map": "/static/css/main.61b56421.css.map",
+    "main.302fc07a.js.map": "/static/js/main.302fc07a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61b56421.css",
+    "static/js/main.302fc07a.js"
+  ]
+}

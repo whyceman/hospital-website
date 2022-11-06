@@ -19,7 +19,7 @@ const Navbar = () => {
                     <span>why</span><span>ce</span>
                 </span>
             </div>
-            {/* {mobile && showMenu === false ? (
+            {mobile && showMenu === false ? (
                 <span className='bar'>
                     <img src={bar} alt=""
                         onClick={() => setShowMenu(true)}
@@ -31,16 +31,16 @@ const Navbar = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, type: 'tween' }}
                 className="menu">
-                <li onClick={() => setShowMenu(false)}><Link to='services' span='true' smooth='true'>Services </Link ></li>
-                <li onClick={() => setShowMenu(false)}><Link to='facilities' span='true' smooth='true'>Facilities</Link></li>
-                <li onClick={() => setShowMenu(false)}><Link to='testimonials' span='true' smooth='true'>Testimonials</Link></li>
-                <li onClick={() => setShowMenu(false)}><Link to='footer' span='true' smooth='true'>Contact</Link></li>
+                <li><Link onClick={() => setShowMenu(false)} to='services' span='true' smooth='true'>Services </Link ></li>
+                <li><Link onClick={() => setShowMenu(false)} to='facilities' span='true' smooth='true'>Facilities</Link></li>
+                <li><Link onClick={() => setShowMenu(false)} to='testimonials' span='true' smooth='true'>Testimonials</Link></li>
+                <li><Link onClick={() => setShowMenu(false)} to='footer' span='true' smooth='true'>Contact</Link></li>
                 <li onClick={() => setShowMenu(false)}><a href='#home' span='true' smooth='true'>Home</a> </li>
                 <li onClick={() => setShowMenu(false)} className="btn"><Link to='signup'>Sign Up</Link></li>
             </motion.ul>
-            } */}
+            }
 
-            {(mobile && showMenu === false) && (
+            {/* {(mobile && showMenu === false) && (
                 <span className='bar'>
                     <img src={bar} alt=""
                         onClick={() => setShowMenu(true)}
@@ -60,7 +60,7 @@ const Navbar = () => {
                 <li ><Link onClick={() => setShowMenu(false)} to='footer' span='true' smooth='true'>Contact</Link></li>
                 <li onClick={() => setShowMenu(false)}><a href='#home' span='true' smooth='true'>Home</a> </li>
                 <li onClick={() => setShowMenu(false)} className="btn"><Link to='signup'>Sign Up</Link></li>
-            </motion.ul>)}
+            </motion.ul>)} */}
 
 
 
